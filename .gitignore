@@ -1,0 +1,77 @@
+# ==================================
+# Dependencies / environments
+# ==================================
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build / tooling outputs
+.expo/
+.expo-shared/
+dist/
+build/
+*.jsbundle
+.vercel/
+supabase/.temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==================================
+# Large files (over GitHub 100MB limit)
+# ==================================
+# 6.5GB archive
+TestRun/ProjectCode.zip
+
+# 671MB raw dataset
+recipesExtra.csv
+
+# Old ML models (only trained_food_freshness_model_v2.h5 is tracked via Git LFS)
+ScanModel/best_food_model.h5
+ScanModel/trained_food_freshness_model.h5
+
+# 6GB training images
+TestRun/nutrichef-global/ml_resources/
+
+# Third-party template repo (not our code)
+TestRun/Healthy-Food-Recipe-Planning--main/
+
+# ==================================
+# Non-code documents (reports, logbooks, media)
+# ==================================
+ws submit/
+*.pdf
+*.docx
+*.mp4
+*.drawio
+*.drawio.bkp
+.*.drawio.bkp
+*.txt

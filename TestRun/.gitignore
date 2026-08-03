@@ -1,0 +1,186 @@
+# ==================================
+# EXISTING PROJECT CONFIGURATION
+# ==================================
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# Build outputs
+.expo/
+.expo-shared/
+dist/
+build/
+*.jsbundle
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Large files (ML models)
+*.zip
+*.tar.gz
+*.h5
+# CRITICAL EXCEPTION: Allow this specific model file
+!api/models/food_freshness_model_final.h5
+*.keras
+*.pb
+*.ckpt
+ml_resources/*.h5
+ml_resources/*.keras
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Mobile
+*.apk
+*.ipa
+*.app
+
+# Supabase
+.supabase/
+
+# Misc
+web-build/
+
+# ==================================
+# STANDARD PYTHON GITHUB IGNORES
+# ==================================
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.envrc
+ENV/
+env.bak/
+venv.bak/
+
+# IDES & Tools
+.spyderproject
+.spyproject
+.ropeproject
+/site
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+.ruff_cache/
+.pypirc
+
+# Vercel
+.vercel
+
+
+ml_resources_backup/
+
+nutrichef-global/ml_resources/

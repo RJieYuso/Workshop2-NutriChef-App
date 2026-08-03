@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "api/deepseek_api.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "api/deepseek_api.py"
+        }
+    ],
+    "env": {
+        "DEEPSEEK_API_KEY": "YOUR_DEEPSEEK_API_KEY"
+    }
+}
