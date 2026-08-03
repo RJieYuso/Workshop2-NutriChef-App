@@ -171,9 +171,7 @@ Workshop2-NutriChef/
 │   ├── predict.py                 # Inference
 │   ├── trained_food_freshness_model_v2.h5   # Weights (Git LFS)
 │   └── training_history.json      # Training metrics
-├── recipes*.csv                   # Recipe datasets
 ├── app design/                    # UI assets
-└── ClearData.ipynb                # Dataset prep
 ```
 
 ---
