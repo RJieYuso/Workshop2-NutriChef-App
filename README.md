@@ -195,7 +195,7 @@ Workshop2-NutriChef/
 
 ```bash
 # 1. Clone
-git clone https://github.com/RJieYuso/Workshop2-NutriChef.git
+git clone https://github.com/RJieYuso/Workshop2-NutriChef-App.git
 cd Workshop2-NutriChef
 
 # 2. Pull the ML model (Git LFS)
